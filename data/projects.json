@@ -1,0 +1,1330 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-08",
+  "publisher": {
+    "name": "HoodL2",
+    "url": "https://hoodl2.com"
+  },
+  "source": "https://hoodl2.com/api/v1/entities?limit=200",
+  "scope": "All 129 public HoodL2 directory records at retrieval. Categories and recorded links describe the source snapshot; inclusion does not verify deployment, availability, endorsement or safety.",
+  "category_labels": {
+    "protocol-core": "Chain and core contracts",
+    "stock-tokens": "Stock Tokens",
+    "stablecoins": "Stablecoins",
+    "rpc-nodes": "RPC and nodes",
+    "explorers-data": "Explorers and data",
+    "oracles": "Oracles",
+    "bridges-interop": "Bridges and interoperability",
+    "wallets-custody": "Wallets and custody",
+    "dex": "Exchanges and liquidity",
+    "aggregation-execution": "Aggregation and execution",
+    "perps-derivatives": "Derivatives and prediction markets",
+    "lending-yield": "Lending and vaults",
+    "launchpads": "Token launches",
+    "nft-gaming": "NFTs and games",
+    "compliance-security": "Compliance and security",
+    "adjacent": "Other projects and adjacent infrastructure"
+  },
+  "projects": [
+    {
+      "slug": "aeron",
+      "name": "Aeron",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/aeron",
+      "recorded_links": {
+        "website": "https://github.com/aeronlabs",
+        "twitter": "https://x.com/Aeron_ai"
+      }
+    },
+    {
+      "slug": "after-hours",
+      "name": "After Hours",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/after-hours",
+      "recorded_links": {
+        "twitter": "https://x.com/A_HRS_"
+      }
+    },
+    {
+      "slug": "amzng",
+      "name": "amzng",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/amzng",
+      "recorded_links": {
+        "website": "https://amzng.fun",
+        "twitter": "https://x.com/amzngamzn_rh"
+      }
+    },
+    {
+      "slug": "arbitrum",
+      "name": "Arbitrum",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/arbitrum",
+      "recorded_links": {
+        "website": "https://arbitrum.io",
+        "docs": "https://docs.arbitrum.io",
+        "github": "https://github.com/OffchainLabs",
+        "twitter": "https://x.com/arbitrum"
+      }
+    },
+    {
+      "slug": "bankr",
+      "name": "bankrbot",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/bankr",
+      "recorded_links": {
+        "website": "https://bankr.bot",
+        "twitter": "https://x.com/bankrbot"
+      }
+    },
+    {
+      "slug": "cash-cat",
+      "name": "Cash Cat",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/cash-cat",
+      "recorded_links": {
+        "website": "https://cashcat.cc",
+        "twitter": "https://x.com/cashcat_token"
+      }
+    },
+    {
+      "slug": "chump",
+      "name": "CHUMP",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/chump",
+      "recorded_links": {
+        "twitter": "https://x.com/BrotherMKT"
+      }
+    },
+    {
+      "slug": "deck",
+      "name": "DECK",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/deck",
+      "recorded_links": {
+        "website": "https://deckstocks.xyz",
+        "twitter": "https://x.com/deckstocks"
+      }
+    },
+    {
+      "slug": "ethereum",
+      "name": "Ethereum",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/ethereum",
+      "recorded_links": {
+        "website": "https://ethereum.org",
+        "docs": "https://ethereum.org/developers",
+        "twitter": "https://x.com/ethereum"
+      }
+    },
+    {
+      "slug": "family-cash",
+      "name": "Family.Cash",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/family-cash",
+      "recorded_links": {
+        "website": "https://Family.Cash",
+        "twitter": "https://x.com/AzimuthContext"
+      }
+    },
+    {
+      "slug": "fox",
+      "name": "FOX",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/fox",
+      "recorded_links": {
+        "website": "https://robinhoodfox.com",
+        "twitter": "https://x.com/fox_onrh"
+      }
+    },
+    {
+      "slug": "frame",
+      "name": "FRAME (Launchframe)",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/frame",
+      "recorded_links": {
+        "website": "https://launchframe.pro/",
+        "twitter": "https://x.com/Launchframepro"
+      }
+    },
+    {
+      "slug": "good",
+      "name": "GOOD",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/good",
+      "recorded_links": {
+        "website": "https://goodcoin.io",
+        "twitter": "https://x.com/GoodCoinRH"
+      }
+    },
+    {
+      "slug": "hmm",
+      "name": "HMM (Thinking Cat)",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/hmm",
+      "recorded_links": {
+        "website": "https://hmmmm.fun",
+        "twitter": "https://x.com/thinkingcatRH"
+      }
+    },
+    {
+      "slug": "hydroboom",
+      "name": "HydroBoom",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/hydroboom",
+      "recorded_links": {
+        "website": "https://www.hydroboom.xyz/",
+        "twitter": "https://x.com/HydroBoom"
+      }
+    },
+    {
+      "slug": "mesh-gateway",
+      "name": "Mesh",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/mesh-gateway",
+      "recorded_links": {
+        "website": "https://meshgateway.co",
+        "twitter": "https://x.com/MeshGateway"
+      }
+    },
+    {
+      "slug": "peptides",
+      "name": "peptides-3",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/peptides",
+      "recorded_links": {
+        "twitter": "https://x.com/stitchdegen"
+      }
+    },
+    {
+      "slug": "project-vex",
+      "name": "Project:VEX",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/project-vex",
+      "recorded_links": {
+        "website": "https://www.projectvex.ai",
+        "twitter": "https://x.com/ProjectVEXai"
+      }
+    },
+    {
+      "slug": "sherwood-protocol",
+      "name": "Sherwood Protocol",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/sherwood-protocol",
+      "recorded_links": {
+        "website": "https://sherwood.sh",
+        "twitter": "https://x.com/sherwoodagent"
+      }
+    },
+    {
+      "slug": "sirius",
+      "name": "Sirius",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/sirius",
+      "recorded_links": {
+        "website": "https://dogestar.space",
+        "twitter": "https://x.com/DogestarOnRH"
+      }
+    },
+    {
+      "slug": "stash",
+      "name": "STASH",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/stash",
+      "recorded_links": {
+        "website": "https://GoStash.xyz",
+        "twitter": "https://x.com/gostashxyz"
+      }
+    },
+    {
+      "slug": "stonkinu",
+      "name": "StonkInu",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/stonkinu",
+      "recorded_links": {
+        "website": "https://www.stonkinu.com/",
+        "twitter": "https://x.com/StonkInuRH"
+      }
+    },
+    {
+      "slug": "vantis",
+      "name": "Vantis",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/vantis",
+      "recorded_links": {
+        "website": "https://vantis.sh",
+        "twitter": "https://x.com/vantis_ai"
+      }
+    },
+    {
+      "slug": "virtuals",
+      "name": "Virtuals Protocol",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/virtuals",
+      "recorded_links": {
+        "website": "https://app.virtuals.io",
+        "twitter": "https://x.com/virtuals_io"
+      }
+    },
+    {
+      "slug": "what-if",
+      "name": "What IF",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/what-if",
+      "recorded_links": {
+        "website": "https://whatifonhood.com",
+        "twitter": "https://x.com/WhatIFonHOOD"
+      }
+    },
+    {
+      "slug": "wirebot",
+      "name": "wire bot",
+      "category": "adjacent",
+      "hoodl2_url": "https://hoodl2.com/entity/wirebot",
+      "recorded_links": {
+        "website": "https://wirebot.trade/docs",
+        "twitter": "https://x.com/wirebotRH"
+      }
+    },
+    {
+      "slug": "0x",
+      "name": "0x",
+      "category": "aggregation-execution",
+      "hoodl2_url": "https://hoodl2.com/entity/0x",
+      "recorded_links": {
+        "website": "https://0x.org",
+        "docs": "https://0x.org/docs",
+        "github": "https://github.com/0xProject",
+        "twitter": "https://x.com/0xProject"
+      }
+    },
+    {
+      "slug": "1inch",
+      "name": "1inch",
+      "category": "aggregation-execution",
+      "hoodl2_url": "https://hoodl2.com/entity/1inch",
+      "recorded_links": {
+        "website": "https://1inch.com",
+        "twitter": "https://x.com/1inch"
+      }
+    },
+    {
+      "slug": "dexfi",
+      "name": "DexFi Aggregator",
+      "category": "aggregation-execution",
+      "hoodl2_url": "https://hoodl2.com/entity/dexfi",
+      "recorded_links": {}
+    },
+    {
+      "slug": "exypnos",
+      "name": "Exypnos",
+      "category": "aggregation-execution",
+      "hoodl2_url": "https://hoodl2.com/entity/exypnos",
+      "recorded_links": {
+        "website": "https://exypnos.xyz",
+        "twitter": "https://x.com/exypnos_xyz"
+      }
+    },
+    {
+      "slug": "rialto",
+      "name": "Rialto",
+      "category": "aggregation-execution",
+      "hoodl2_url": "https://hoodl2.com/entity/rialto",
+      "recorded_links": {
+        "docs": "https://docs.rialto.xyz/"
+      }
+    },
+    {
+      "slug": "across",
+      "name": "Across",
+      "category": "bridges-interop",
+      "hoodl2_url": "https://hoodl2.com/entity/across",
+      "recorded_links": {
+        "website": "https://across.to",
+        "docs": "https://docs.across.to",
+        "twitter": "https://x.com/acrossprotocol"
+      }
+    },
+    {
+      "slug": "layerzero",
+      "name": "LayerZero",
+      "category": "bridges-interop",
+      "hoodl2_url": "https://hoodl2.com/entity/layerzero",
+      "recorded_links": {
+        "website": "https://layerzero.network",
+        "docs": "https://docs.layerzero.network",
+        "github": "https://github.com/LayerZero-Labs",
+        "twitter": "https://x.com/layerzero_labs"
+      }
+    },
+    {
+      "slug": "lifi",
+      "name": "LI.FI",
+      "category": "bridges-interop",
+      "hoodl2_url": "https://hoodl2.com/entity/lifi",
+      "recorded_links": {
+        "website": "https://li.fi",
+        "docs": "https://docs.li.fi",
+        "twitter": "https://x.com/lifiprotocol"
+      }
+    },
+    {
+      "slug": "relay-protocol",
+      "name": "Relay Protocol",
+      "category": "bridges-interop",
+      "hoodl2_url": "https://hoodl2.com/entity/relay-protocol",
+      "recorded_links": {
+        "website": "https://relay.link",
+        "docs": "https://docs.relay.link",
+        "twitter": "https://x.com/relayprotocol"
+      }
+    },
+    {
+      "slug": "trm-labs",
+      "name": "TRM Labs",
+      "category": "compliance-security",
+      "hoodl2_url": "https://hoodl2.com/entity/trm-labs",
+      "recorded_links": {
+        "website": "https://www.trmlabs.com",
+        "twitter": "https://x.com/trmlabs"
+      }
+    },
+    {
+      "slug": "alandale",
+      "name": "Alandale",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/alandale",
+      "recorded_links": {
+        "website": "https://alandale.xyz",
+        "twitter": "https://x.com/alandalexyz"
+      }
+    },
+    {
+      "slug": "deepstate",
+      "name": "Deepstate",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/deepstate",
+      "recorded_links": {
+        "website": "https://deepstate.sh/",
+        "twitter": "https://x.com/josephdelong"
+      }
+    },
+    {
+      "slug": "delta",
+      "name": "Delta",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/delta",
+      "recorded_links": {
+        "website": "https://deltaliquidity.app",
+        "twitter": "https://x.com/deltaliquidity"
+      }
+    },
+    {
+      "slug": "ekubo",
+      "name": "Ekubo",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/ekubo",
+      "recorded_links": {
+        "website": "https://ekubo.org/",
+        "twitter": "https://x.com/EkuboProtocol"
+      }
+    },
+    {
+      "slug": "fables",
+      "name": "Fables",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/fables",
+      "recorded_links": {
+        "website": "https://www.fables.fi/",
+        "twitter": "https://x.com/fablesfi"
+      }
+    },
+    {
+      "slug": "pancakeswap",
+      "name": "PancakeSwap",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/pancakeswap",
+      "recorded_links": {
+        "website": "https://pancakeswap.finance",
+        "docs": "https://developer.pancakeswap.finance",
+        "twitter": "https://x.com/PancakeSwap"
+      }
+    },
+    {
+      "slug": "ramses",
+      "name": "Ramses",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/ramses",
+      "recorded_links": {
+        "website": "https://www.ramses.xyz",
+        "twitter": "https://x.com/RamsesExchange"
+      }
+    },
+    {
+      "slug": "robinswap",
+      "name": "RobinSwap",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/robinswap",
+      "recorded_links": {}
+    },
+    {
+      "slug": "sheriff",
+      "name": "Sheriff",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/sheriff",
+      "recorded_links": {}
+    },
+    {
+      "slug": "sluice",
+      "name": "Sluice",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/sluice",
+      "recorded_links": {
+        "website": "https://sluice.live",
+        "twitter": "https://x.com/sluice_rh"
+      }
+    },
+    {
+      "slug": "sushiswap",
+      "name": "SushiSwap",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/sushiswap",
+      "recorded_links": {
+        "website": "https://www.sushi.com/ethereum/swap",
+        "twitter": "https://x.com/SushiSwap"
+      }
+    },
+    {
+      "slug": "uniswap",
+      "name": "Uniswap",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/uniswap",
+      "recorded_links": {
+        "website": "https://uniswap.org",
+        "docs": "https://docs.uniswap.org",
+        "app": "https://app.uniswap.org",
+        "github": "https://github.com/Uniswap",
+        "twitter": "https://x.com/Uniswap"
+      }
+    },
+    {
+      "slug": "up",
+      "name": "up.",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/up",
+      "recorded_links": {
+        "website": "https://up33.xyz/docs/dynamic-fees",
+        "twitter": "https://x.com/uponrh"
+      }
+    },
+    {
+      "slug": "what-the-hook",
+      "name": "What The Hook",
+      "category": "dex",
+      "hoodl2_url": "https://hoodl2.com/entity/what-the-hook",
+      "recorded_links": {
+        "website": "https://www.whatthehook.io",
+        "twitter": "https://x.com/whatthehookv4"
+      }
+    },
+    {
+      "slug": "allium",
+      "name": "Allium",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/allium",
+      "recorded_links": {
+        "website": "https://www.allium.so",
+        "docs": "https://docs.allium.so",
+        "twitter": "https://x.com/alliumlabs"
+      }
+    },
+    {
+      "slug": "blockscout",
+      "name": "Blockscout",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/blockscout",
+      "recorded_links": {
+        "website": "https://www.blockscout.com",
+        "docs": "https://docs.blockscout.com",
+        "github": "https://github.com/blockscout/blockscout",
+        "twitter": "https://x.com/blockscoutcom"
+      }
+    },
+    {
+      "slug": "coingecko",
+      "name": "CoinGecko",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/coingecko",
+      "recorded_links": {
+        "website": "https://www.coingecko.com",
+        "twitter": "https://x.com/coingecko"
+      }
+    },
+    {
+      "slug": "defillama",
+      "name": "DefiLlama",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/defillama",
+      "recorded_links": {
+        "website": "https://defillama.com",
+        "twitter": "https://x.com/defillama"
+      }
+    },
+    {
+      "slug": "dune",
+      "name": "Dune",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/dune",
+      "recorded_links": {
+        "website": "https://dune.com",
+        "twitter": "https://x.com/dune"
+      }
+    },
+    {
+      "slug": "l2beat",
+      "name": "L2BEAT",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/l2beat",
+      "recorded_links": {
+        "website": "https://l2beat.com",
+        "twitter": "https://x.com/l2beat"
+      }
+    },
+    {
+      "slug": "sounder-liquidity",
+      "name": "Sounder Liquidity",
+      "category": "explorers-data",
+      "hoodl2_url": "https://hoodl2.com/entity/sounder-liquidity",
+      "recorded_links": {
+        "website": "https://www.sounderliq.app/docs",
+        "twitter": "https://x.com/SounderLiq"
+      }
+    },
+    {
+      "slug": "azeon",
+      "name": "Azeon",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/azeon",
+      "recorded_links": {
+        "twitter": "https://x.com/Azeontech"
+      }
+    },
+    {
+      "slug": "gangs",
+      "name": "gangs.wtf",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/gangs",
+      "recorded_links": {
+        "website": "https://www.gangs.wtf/token/0xda45ff5050c3e64f46d99c5ba491f121a7fa9ae7",
+        "twitter": "https://x.com/gangswtf"
+      }
+    },
+    {
+      "slug": "hoodfun",
+      "name": "hoodfun",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/hoodfun",
+      "recorded_links": {
+        "twitter": "https://x.com/hoodfunfamily"
+      }
+    },
+    {
+      "slug": "hookr",
+      "name": "Hookr",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/hookr",
+      "recorded_links": {
+        "website": "https://hookr.fun",
+        "twitter": "https://x.com/Hookrfun"
+      }
+    },
+    {
+      "slug": "lemon",
+      "name": "Lemon",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/lemon",
+      "recorded_links": {
+        "website": "https://lemon.fun",
+        "twitter": "https://x.com/lemondotfun"
+      }
+    },
+    {
+      "slug": "letscash-fun",
+      "name": "letscash.fun",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/letscash-fun",
+      "recorded_links": {
+        "website": "https://www.letscash.fun/",
+        "twitter": "https://x.com/letscashfun"
+      }
+    },
+    {
+      "slug": "long",
+      "name": "LONG",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/long",
+      "recorded_links": {
+        "website": "https://app.long.xyz",
+        "twitter": "https://x.com/longdotxyz"
+      }
+    },
+    {
+      "slug": "noxa-fun",
+      "name": "NOXA Fun",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/noxa-fun",
+      "recorded_links": {
+        "docs": "https://docs.noxa.fi/",
+        "app": "https://fun.noxa.fi/robinhood"
+      }
+    },
+    {
+      "slug": "orynth",
+      "name": "Orynth",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/orynth",
+      "recorded_links": {
+        "website": "https://www.orynth.dev/projects/voicedrop",
+        "twitter": "https://x.com/orynth"
+      }
+    },
+    {
+      "slug": "pair",
+      "name": "PAIR",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/pair",
+      "recorded_links": {
+        "website": "https://pair.fund",
+        "twitter": "https://x.com/pairdotfund"
+      }
+    },
+    {
+      "slug": "pons",
+      "name": "Pons",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/pons",
+      "recorded_links": {
+        "website": "https://www.ponsfamily.com/launchpad",
+        "twitter": "https://x.com/ponsdotfamily"
+      }
+    },
+    {
+      "slug": "pools-trade",
+      "name": "Pools (Uniswap Labs)",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/pools-trade",
+      "recorded_links": {
+        "website": "https://pools.trade/",
+        "twitter": "https://x.com/TradePools"
+      }
+    },
+    {
+      "slug": "pools-fun",
+      "name": "Pools.fun",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/pools-fun",
+      "recorded_links": {
+        "website": "https://pools.fun",
+        "twitter": "https://x.com/pools_dot_fun"
+      }
+    },
+    {
+      "slug": "rally",
+      "name": "Rally",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/rally",
+      "recorded_links": {
+        "website": "https://www.rallypad.fun",
+        "twitter": "https://x.com/rallypadfun"
+      }
+    },
+    {
+      "slug": "robinfun",
+      "name": "robinfun",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/robinfun",
+      "recorded_links": {
+        "website": "https://robinfun.live",
+        "twitter": "https://x.com/robinfunxyz"
+      }
+    },
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/sentry",
+      "recorded_links": {}
+    },
+    {
+      "slug": "trustswap",
+      "name": "TrustSwap",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/trustswap",
+      "recorded_links": {
+        "website": "https://trustswap.com/robinhood",
+        "twitter": "https://x.com/TrustSwap"
+      }
+    },
+    {
+      "slug": "v4-fun",
+      "name": "v4.fun",
+      "category": "launchpads",
+      "hoodl2_url": "https://hoodl2.com/entity/v4-fun",
+      "recorded_links": {
+        "website": "https://v4.fun",
+        "twitter": "https://x.com/v4dotfun"
+      }
+    },
+    {
+      "slug": "arrow-finance",
+      "name": "Arrow Finance",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/arrow-finance",
+      "recorded_links": {
+        "website": "https://cdp.arrowfinance.io/",
+        "twitter": "https://x.com/ArrowFinanceio"
+      }
+    },
+    {
+      "slug": "earn-on-hood",
+      "name": "EARN",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/earn-on-hood",
+      "recorded_links": {
+        "website": "https://earnonhood.com/auto",
+        "twitter": "https://x.com/EARNONHOOD"
+      }
+    },
+    {
+      "slug": "the-index-fi",
+      "name": "Index",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/the-index-fi",
+      "recorded_links": {
+        "website": "https://indices.theindex.finance/",
+        "twitter": "https://x.com/TheIndexFi"
+      }
+    },
+    {
+      "slug": "longbow",
+      "name": "Longbow",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/longbow",
+      "recorded_links": {
+        "website": "https://www.longbow.cash",
+        "twitter": "https://x.com/longbowlend"
+      }
+    },
+    {
+      "slug": "maple",
+      "name": "Maple",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/maple",
+      "recorded_links": {
+        "website": "https://maple.finance",
+        "twitter": "https://x.com/maplefinance"
+      }
+    },
+    {
+      "slug": "mintly",
+      "name": "Mintly",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/mintly",
+      "recorded_links": {
+        "website": "https://app.mintly.so/vaults",
+        "twitter": "https://x.com/GoMintly"
+      }
+    },
+    {
+      "slug": "morpho",
+      "name": "Morpho",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/morpho",
+      "recorded_links": {
+        "website": "https://morpho.org",
+        "docs": "https://docs.morpho.org",
+        "app": "https://app.morpho.org",
+        "github": "https://github.com/morpho-org",
+        "twitter": "https://x.com/MorphoLabs"
+      }
+    },
+    {
+      "slug": "pons-capital",
+      "name": "Pons Capital",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/pons-capital",
+      "recorded_links": {
+        "twitter": "https://x.com/TryPonscapital"
+      }
+    },
+    {
+      "slug": "snuggle",
+      "name": "Snuggle",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/snuggle",
+      "recorded_links": {
+        "website": "https://snuggle.fi/",
+        "twitter": "https://x.com/SnuggleFi"
+      }
+    },
+    {
+      "slug": "spark",
+      "name": "Spark",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/spark",
+      "recorded_links": {
+        "website": "https://spark.finance",
+        "twitter": "https://x.com/sparkfinance"
+      }
+    },
+    {
+      "slug": "steakhouse-financial",
+      "name": "Steakhouse Financial",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/steakhouse-financial",
+      "recorded_links": {
+        "website": "https://www.steakhouse.financial/",
+        "twitter": "https://x.com/SteakhouseFi"
+      }
+    },
+    {
+      "slug": "t3tris-finance",
+      "name": "T3tris Finance",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/t3tris-finance",
+      "recorded_links": {
+        "website": "https://t3tris.finance/",
+        "twitter": "https://x.com/0xT3tris"
+      }
+    },
+    {
+      "slug": "standard-reserve",
+      "name": "The Standard Reserve",
+      "category": "lending-yield",
+      "hoodl2_url": "https://hoodl2.com/entity/standard-reserve",
+      "recorded_links": {
+        "website": "https://www.standardreserve.xyz/app/protocol/",
+        "twitter": "https://x.com/standard_rsv"
+      }
+    },
+    {
+      "slug": "dice-protocol",
+      "name": "Dice Protocol",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/dice-protocol",
+      "recorded_links": {
+        "website": "https://diceprotocol.world",
+        "twitter": "https://x.com/DiceProtocolRH"
+      }
+    },
+    {
+      "slug": "netnet-capital",
+      "name": "NetNet Capital",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/netnet-capital",
+      "recorded_links": {
+        "website": "https://play.netnet.capital/",
+        "twitter": "https://x.com/NetNetCap"
+      }
+    },
+    {
+      "slug": "opensea",
+      "name": "OpenSea",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/opensea",
+      "recorded_links": {
+        "website": "https://opensea.io",
+        "app": "https://opensea.io/discover/chain/robinhood",
+        "twitter": "https://x.com/opensea"
+      }
+    },
+    {
+      "slug": "slvr",
+      "name": "SLVR",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/slvr",
+      "recorded_links": {
+        "website": "https://slvr.fun",
+        "twitter": "https://x.com/S_L_V_R_FUN"
+      }
+    },
+    {
+      "slug": "stock-miners",
+      "name": "Stock Miners",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/stock-miners",
+      "recorded_links": {
+        "website": "https://opensea.io/collection/stockminers",
+        "twitter": "https://x.com/StockMinersRH"
+      }
+    },
+    {
+      "slug": "stockrip",
+      "name": "StockRip",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/stockrip",
+      "recorded_links": {
+        "website": "https://stockrip.com/",
+        "twitter": "https://x.com/stockripx"
+      }
+    },
+    {
+      "slug": "yorozu",
+      "name": "Yorozu",
+      "category": "nft-gaming",
+      "hoodl2_url": "https://hoodl2.com/entity/yorozu",
+      "recorded_links": {
+        "website": "https://www.yorozu.gg/",
+        "app": "https://play.yorozu.gg/"
+      }
+    },
+    {
+      "slug": "chainlink",
+      "name": "Chainlink",
+      "category": "oracles",
+      "hoodl2_url": "https://hoodl2.com/entity/chainlink",
+      "recorded_links": {
+        "website": "https://chain.link",
+        "docs": "https://docs.chain.link",
+        "github": "https://github.com/smartcontractkit/chainlink",
+        "twitter": "https://x.com/chainlink"
+      }
+    },
+    {
+      "slug": "arcus",
+      "name": "Arcus",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/arcus",
+      "recorded_links": {
+        "docs": "https://www.dydx.xyz/blog/a-new-arc"
+      }
+    },
+    {
+      "slug": "clutch-markets",
+      "name": "Clutch Markets",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/clutch-markets",
+      "recorded_links": {
+        "website": "https://stonkbrokers.io",
+        "twitter": "https://x.com/ClutchMarkets"
+      }
+    },
+    {
+      "slug": "grid-arena",
+      "name": "Grid Arena",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/grid-arena",
+      "recorded_links": {
+        "website": "https://www.gridarena.xyz",
+        "twitter": "https://x.com/grid_arena"
+      }
+    },
+    {
+      "slug": "hoodmarket",
+      "name": "Hoodmarket",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/hoodmarket",
+      "recorded_links": {
+        "website": "https://hoodmarket.fun",
+        "twitter": "https://x.com/HoodmarketRH"
+      }
+    },
+    {
+      "slug": "legs",
+      "name": "legs.fun",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/legs",
+      "recorded_links": {
+        "website": "https://legs.fun",
+        "twitter": "https://x.com/legsdotfun"
+      }
+    },
+    {
+      "slug": "lighter",
+      "name": "Lighter",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/lighter",
+      "recorded_links": {
+        "website": "https://lighter.xyz",
+        "docs": "https://docs.lighter.xyz",
+        "app": "https://app.lighter.xyz",
+        "twitter": "https://x.com/Lighter_xyz"
+      }
+    },
+    {
+      "slug": "meridian-predict",
+      "name": "Meridian Predict",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/meridian-predict",
+      "recorded_links": {
+        "website": "https://www.meridian.xyz/",
+        "docs": "https://docs.meridian.xyz/"
+      }
+    },
+    {
+      "slug": "orderly-network",
+      "name": "Orderly Network",
+      "category": "perps-derivatives",
+      "hoodl2_url": "https://hoodl2.com/entity/orderly-network",
+      "recorded_links": {
+        "website": "https://dex.orderly.network/en?utm_source=oex&utm_medium=social&utm_campaign=robinhood",
+        "twitter": "https://x.com/OrderlyNetwork"
+      }
+    },
+    {
+      "slug": "robinhood",
+      "name": "Robinhood",
+      "category": "protocol-core",
+      "hoodl2_url": "https://hoodl2.com/entity/robinhood",
+      "recorded_links": {
+        "website": "https://robinhood.com/chain",
+        "docs": "https://docs.robinhood.com/chain/",
+        "twitter": "https://x.com/RobinhoodApp"
+      }
+    },
+    {
+      "slug": "robinhood-chain",
+      "name": "Robinhood Chain",
+      "category": "protocol-core",
+      "hoodl2_url": "https://hoodl2.com/entity/robinhood-chain",
+      "recorded_links": {
+        "website": "https://robinhood.com/chain",
+        "docs": "https://docs.robinhood.com/chain/",
+        "app": "https://robinhood.com/us/en/chain/",
+        "twitter": "https://x.com/RobinhoodApp"
+      }
+    },
+    {
+      "slug": "robinhood-chain-bridge",
+      "name": "Robinhood Chain Bridge",
+      "category": "protocol-core",
+      "hoodl2_url": "https://hoodl2.com/entity/robinhood-chain-bridge",
+      "recorded_links": {
+        "docs": "https://docs.robinhood.com/chain/bridging/",
+        "app": "https://portal.arbitrum.io/bridge?destinationChain=robinhood-chain&sourceChain=ethereum"
+      }
+    },
+    {
+      "slug": "weth",
+      "name": "Wrapped Ether (WETH)",
+      "category": "protocol-core",
+      "hoodl2_url": "https://hoodl2.com/entity/weth",
+      "recorded_links": {
+        "docs": "https://docs.robinhood.com/chain/contracts/"
+      }
+    },
+    {
+      "slug": "alchemy",
+      "name": "Alchemy",
+      "category": "rpc-nodes",
+      "hoodl2_url": "https://hoodl2.com/entity/alchemy",
+      "recorded_links": {
+        "website": "https://www.alchemy.com",
+        "docs": "https://docs.alchemy.com",
+        "twitter": "https://x.com/AlchemyPlatform"
+      }
+    },
+    {
+      "slug": "blockdaemon",
+      "name": "Blockdaemon",
+      "category": "rpc-nodes",
+      "hoodl2_url": "https://hoodl2.com/entity/blockdaemon",
+      "recorded_links": {
+        "website": "https://www.blockdaemon.com",
+        "twitter": "https://x.com/blockdaemon"
+      }
+    },
+    {
+      "slug": "drpc",
+      "name": "dRPC",
+      "category": "rpc-nodes",
+      "hoodl2_url": "https://hoodl2.com/entity/drpc",
+      "recorded_links": {
+        "website": "https://drpc.org",
+        "twitter": "https://x.com/drpcorg"
+      }
+    },
+    {
+      "slug": "quicknode",
+      "name": "QuickNode",
+      "category": "rpc-nodes",
+      "hoodl2_url": "https://hoodl2.com/entity/quicknode",
+      "recorded_links": {
+        "website": "https://www.quicknode.com",
+        "docs": "https://www.quicknode.com/docs/robinhood",
+        "twitter": "https://x.com/QuickNode"
+      }
+    },
+    {
+      "slug": "validation-cloud",
+      "name": "Validation Cloud",
+      "category": "rpc-nodes",
+      "hoodl2_url": "https://hoodl2.com/entity/validation-cloud",
+      "recorded_links": {
+        "website": "https://www.validationcloud.io",
+        "twitter": "https://x.com/validationcloud"
+      }
+    },
+    {
+      "slug": "paxos",
+      "name": "Paxos",
+      "category": "stablecoins",
+      "hoodl2_url": "https://hoodl2.com/entity/paxos",
+      "recorded_links": {
+        "website": "https://www.paxos.com",
+        "twitter": "https://x.com/paxos"
+      }
+    },
+    {
+      "slug": "usdg",
+      "name": "USDG (Global Dollar)",
+      "category": "stablecoins",
+      "hoodl2_url": "https://hoodl2.com/entity/usdg",
+      "recorded_links": {
+        "website": "https://globaldollar.com"
+      }
+    },
+    {
+      "slug": "l4va",
+      "name": "L4VA",
+      "category": "stock-tokens",
+      "hoodl2_url": "https://hoodl2.com/entity/l4va",
+      "recorded_links": {
+        "website": "https://l4va.com/",
+        "twitter": "https://x.com/L4VAprotocol"
+      }
+    },
+    {
+      "slug": "prism-assets",
+      "name": "Prism Assets",
+      "category": "stock-tokens",
+      "hoodl2_url": "https://hoodl2.com/entity/prism-assets",
+      "recorded_links": {
+        "website": "https://prismassets.shop",
+        "twitter": "https://x.com/prismassets"
+      }
+    },
+    {
+      "slug": "stock-tokens",
+      "name": "Stock Tokens",
+      "category": "stock-tokens",
+      "hoodl2_url": "https://hoodl2.com/entity/stock-tokens",
+      "recorded_links": {
+        "website": "https://robinhood.com/rhj/stocktokens/",
+        "docs": "https://docs.robinhood.com/chain/stock-tokens/"
+      }
+    },
+    {
+      "slug": "bitgo",
+      "name": "BitGo",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/bitgo",
+      "recorded_links": {
+        "website": "https://www.bitgo.com",
+        "twitter": "https://x.com/BitGo"
+      }
+    },
+    {
+      "slug": "fireblocks",
+      "name": "Fireblocks",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/fireblocks",
+      "recorded_links": {
+        "website": "https://www.fireblocks.com",
+        "twitter": "https://x.com/fireblockshq"
+      }
+    },
+    {
+      "slug": "greenwood-finance",
+      "name": "Greenwood Finance",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/greenwood-finance",
+      "recorded_links": {
+        "website": "https://www.greenwood.fi",
+        "twitter": "https://x.com/GwoodFinance"
+      }
+    },
+    {
+      "slug": "karma-wallet",
+      "name": "Karma",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/karma-wallet",
+      "recorded_links": {
+        "website": "https://trykarma.app",
+        "twitter": "https://x.com/KarmaWallet"
+      }
+    },
+    {
+      "slug": "metamask",
+      "name": "MetaMask",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/metamask",
+      "recorded_links": {
+        "website": "https://metamask.io",
+        "twitter": "https://x.com/metamask"
+      }
+    },
+    {
+      "slug": "phantom",
+      "name": "Phantom",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/phantom",
+      "recorded_links": {
+        "website": "https://phantom.app",
+        "twitter": "https://x.com/phantom"
+      }
+    },
+    {
+      "slug": "robinhood-wallet",
+      "name": "Robinhood Wallet",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/robinhood-wallet",
+      "recorded_links": {
+        "website": "https://robinhood.com/wallet",
+        "twitter": "https://x.com/RobinhoodApp"
+      }
+    },
+    {
+      "slug": "safepal",
+      "name": "SafePal",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/safepal",
+      "recorded_links": {
+        "website": "https://www.safepal.com",
+        "twitter": "https://x.com/safepal"
+      }
+    },
+    {
+      "slug": "tangem",
+      "name": "Tangem",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/tangem",
+      "recorded_links": {
+        "website": "https://community.tangem.com/roadmap",
+        "twitter": "https://x.com/Tangem"
+      }
+    },
+    {
+      "slug": "trust-wallet",
+      "name": "Trust Wallet",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/trust-wallet",
+      "recorded_links": {
+        "website": "https://trustwallet.com",
+        "twitter": "https://x.com/trustwallet"
+      }
+    },
+    {
+      "slug": "zerion",
+      "name": "Zerion",
+      "category": "wallets-custody",
+      "hoodl2_url": "https://hoodl2.com/entity/zerion",
+      "recorded_links": {
+        "website": "https://zerion.io",
+        "docs": "https://zerion.io/api",
+        "github": "https://github.com/zeriontech",
+        "twitter": "https://x.com/zerion"
+      }
+    }
+  ]
+}
