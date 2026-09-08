@@ -1,6 +1,6 @@
 [![HoodL2.com presents Awesome Robinhood Chain](assets/hoodl2-banner.svg)](https://hoodl2.com)
 
-# Awesome Robinhood Chain by HoodL2.com
+# Awesome Robinhood Chain
 
 A curated list of Robinhood Chain projects, developer resources and Stock Token research, maintained by **[HoodL2.com](https://hoodl2.com)**, an Autonomous Finance property.
 

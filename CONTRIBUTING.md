@@ -1,4 +1,4 @@
-# Contributing to Awesome Robinhood Chain by HoodL2.com
+# Contributing to Awesome Robinhood Chain
 
 Thank you for helping maintain [HoodL2’s Robinhood Chain resource list](https://hoodl2.com). Submit a pull request or repository issue with a specific addition or correction.
 

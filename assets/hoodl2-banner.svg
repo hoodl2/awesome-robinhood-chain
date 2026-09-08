@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
-<title id="title">Awesome Robinhood Chain by HoodL2.com</title>
+<title id="title">Awesome Robinhood Chain</title>
 <desc id="desc">HoodL2’s curated projects, Stock Token research and developer resources. An Autonomous Finance property.</desc>
 <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#222B23" stroke-width="1"/></pattern><radialGradient id="glow"><stop stop-color="#00C805" stop-opacity=".17"/><stop offset="1" stop-color="#00C805" stop-opacity="0"/></radialGradient></defs>
 <rect width="1280" height="440" rx="24" fill="#060806"/>
