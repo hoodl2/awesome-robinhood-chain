@@ -4,9 +4,9 @@
 
 A curated list of Robinhood Chain projects, developer resources and Stock Token research, maintained by **[HoodL2.com](https://hoodl2.com)**, an Autonomous Finance property.
 
-**[Browse HoodL2](https://hoodl2.com/ecosystem) · [Stock Tokens](https://hoodl2.com/stocks) · [Learn](https://hoodl2.com/learn) · [All 129 directory records](directory/README.md)**
+**[All 129 directory records](directory/README.md) · [Developer references](#build-on-robinhood-chain) · [Issuer research](#stock-tokens-and-issuer-comparisons)**
 
-Reviewed **8 September 2026**. Project names link to their HoodL2 profiles; adjacent links lead to project websites or documentation. HoodL2 is independent of Robinhood and is not an official Robinhood publication.
+Reviewed **8 September 2026**. Project names link directly to project websites, apps or documentation. HoodL2 is independent of Robinhood and is not an official Robinhood publication.
 
 ## Contents
 
@@ -18,18 +18,16 @@ Reviewed **8 September 2026**. Project names link to their HoodL2 profiles; adja
 - [RPC and developer infrastructure](#rpc-and-developer-infrastructure)
 - [Oracles and data](#oracles-and-data)
 - [Wallets and institutional services](#wallets-and-institutional-services)
-- [More projects from HoodL2](#more-projects-from-hoodl2)
+- [More ecosystem projects](#more-ecosystem-projects)
 - [Agents and automation](#agents-and-automation)
 - [Stock Tokens and issuer comparisons](#stock-tokens-and-issuer-comparisons)
 - [Build on Robinhood Chain](#build-on-robinhood-chain)
-- [HoodL2 reading list](#hoodl2-reading-list)
+- [Further reading](#further-reading)
 - [Directory and data](#directory-and-data)
 - [Contribute](#contribute)
 
 ## Start here
 
-- [HoodL2 ecosystem directory](https://hoodl2.com/ecosystem): project profiles, source notes and related infrastructure.
-- [What is Robinhood Chain?](https://hoodl2.com/learn/what-is-robinhood-chain): HoodL2’s introduction to the network and its architecture.
 - [Official Robinhood Chain documentation](https://docs.robinhood.com/chain/): network setup, contracts and integration guides.
 - [Mainnet explorer](https://robinhoodchain.blockscout.com): inspect transactions, addresses and contracts.
 - [Network status](https://status.robinhoodchain.offchain.io): operator status page.
@@ -52,124 +50,109 @@ Core infrastructure entries follow Robinhood’s [ecosystem overview](https://do
 
 ## Exchanges and liquidity
 
-- [Uniswap](https://hoodl2.com/entity/uniswap): Swaps, liquidity pools and programmable markets. [Website](https://uniswap.org) · [Docs](https://docs.uniswap.org).
-- [Rialto](https://hoodl2.com/entity/rialto): Spot exchange using a proprietary AMM; listed in Robinhood’s ecosystem documentation. [Website](https://rialto.xyz) · [Docs](https://docs.rialto.xyz/).
-- [Arcus](https://hoodl2.com/entity/arcus): Stock Token spot beta for eligible users. Perpetuals use a waitlist and cohort rollout. [Website](https://arcus.xyz) · [Docs](https://docs.arcus.xyz).
-- [Lighter](https://hoodl2.com/entity/lighter): Dedicated Robinhood Chain instance with its own contracts, sequencing and liquidity. [Website](https://robinhoodchain.lighter.xyz) · [Docs](https://docs.robinhood.com/chain/lighter-domains/).
+- [Uniswap](https://uniswap.org): Swaps, liquidity pools and programmable markets. [Docs](https://docs.uniswap.org).
+- [Rialto](https://rialto.xyz): Spot exchange using a proprietary AMM; listed in Robinhood’s ecosystem documentation. [Docs](https://docs.rialto.xyz/).
+- [Arcus](https://arcus.xyz): Stock Token spot beta for eligible users. Perpetuals use a waitlist and cohort rollout. [Docs](https://docs.arcus.xyz).
+- [Lighter](https://robinhoodchain.lighter.xyz): Dedicated Robinhood Chain instance with its own contracts, sequencing and liquidity. [Docs](https://docs.robinhood.com/chain/lighter-domains/).
 
 ## Lending and stablecoins
 
-- [Morpho](https://hoodl2.com/entity/morpho): Lending markets and allocation vaults. Check each market’s collateral, oracle and risk parameters. [Website](https://morpho.org) · [Docs](https://docs.morpho.org).
-- [USDG (Global Dollar)](https://hoodl2.com/entity/usdg): USD-backed Global Dollar stablecoin. Read the issuer’s reserve and redemption disclosures. [Website](https://globaldollar.com).
-- [Paxos](https://hoodl2.com/entity/paxos): Issuer and financial infrastructure company behind USDG. [Website](https://www.paxos.com).
+- [Morpho](https://morpho.org): Lending markets and allocation vaults. Check each market’s collateral, oracle and risk parameters. [Docs](https://docs.morpho.org).
+- [USDG (Global Dollar)](https://globaldollar.com): USD-backed Global Dollar stablecoin. Read the issuer’s reserve and redemption disclosures.
+- [Paxos](https://www.paxos.com): Issuer and financial infrastructure company behind USDG.
 
 ## Bridges and interoperability
 
 Available routes vary by asset and network. Start with the [official bridging guide](https://docs.robinhood.com/chain/bridging/) and verify the destination token.
 
-- [Robinhood Chain Bridge](https://hoodl2.com/entity/robinhood-chain-bridge): Canonical Ethereum connection. Withdrawals require a challenge period and a claim on Ethereum. [Docs](https://docs.robinhood.com/chain/bridging/).
-- [LayerZero](https://hoodl2.com/entity/layerzero): Cross-chain messaging and omnichain token standards. [Website](https://layerzero.network) · [Docs](https://docs.layerzero.network).
-- [Relay Protocol](https://hoodl2.com/entity/relay-protocol): Intent-based bridging and execution on the destination chain. [Website](https://relay.link) · [Docs](https://docs.relay.link).
-- [Across](https://hoodl2.com/entity/across): Intent-based asset transfers across supported networks. [Website](https://across.to) · [Docs](https://docs.across.to).
-- [LI.FI](https://hoodl2.com/entity/lifi): Aggregates bridge and swap routes. [Website](https://li.fi) · [Docs](https://docs.li.fi).
-- [0x](https://hoodl2.com/entity/0x): Trading APIs and routing infrastructure. [Website](https://0x.org) · [Docs](https://0x.org/docs).
+- [Robinhood Chain Bridge](https://docs.robinhood.com/chain/bridging/): Canonical Ethereum connection. Withdrawals require a challenge period and a claim on Ethereum.
+- [LayerZero](https://layerzero.network): Cross-chain messaging and omnichain token standards. [Docs](https://docs.layerzero.network).
+- [Relay Protocol](https://relay.link): Intent-based bridging and execution on the destination chain. [Docs](https://docs.relay.link).
+- [Across](https://across.to): Intent-based asset transfers across supported networks. [Docs](https://docs.across.to).
+- [LI.FI](https://li.fi): Aggregates bridge and swap routes. [Docs](https://docs.li.fi).
+- [0x](https://0x.org): Trading APIs and routing infrastructure. [Docs](https://0x.org/docs).
 
 ## RPC and developer infrastructure
 
-- [Alchemy](https://hoodl2.com/entity/alchemy): RPC, indexed data and account abstraction services. [Website](https://www.alchemy.com) · [Docs](https://docs.alchemy.com).
-- [QuickNode](https://hoodl2.com/entity/quicknode): Node endpoints and developer APIs. [Website](https://www.quicknode.com) · [Docs](https://www.quicknode.com/docs/robinhood).
-- [Blockdaemon](https://hoodl2.com/entity/blockdaemon): Node infrastructure and institutional digital-asset services. [Website](https://www.blockdaemon.com).
-- [dRPC](https://hoodl2.com/entity/drpc): RPC endpoints and request monitoring. [Website](https://drpc.org).
-- [Validation Cloud](https://hoodl2.com/entity/validation-cloud): Node access and blockchain infrastructure. [Website](https://www.validationcloud.io).
-- [Arbitrum](https://hoodl2.com/entity/arbitrum): The underlying chain technology and development documentation. [Website](https://arbitrum.io) · [Docs](https://docs.arbitrum.io).
-- [Ethereum](https://hoodl2.com/entity/ethereum): Settlement network and broader Ethereum developer resources. [Website](https://ethereum.org) · [Docs](https://ethereum.org/developers).
+- [Alchemy](https://www.alchemy.com): RPC, indexed data and account abstraction services. [Docs](https://docs.alchemy.com).
+- [QuickNode](https://www.quicknode.com): Node endpoints and developer APIs. [Docs](https://www.quicknode.com/docs/robinhood).
+- [Blockdaemon](https://www.blockdaemon.com): Node infrastructure and institutional digital-asset services.
+- [dRPC](https://drpc.org): RPC endpoints and request monitoring.
+- [Validation Cloud](https://www.validationcloud.io): Node access and blockchain infrastructure.
+- [Arbitrum](https://arbitrum.io): The underlying chain technology and development documentation. [Docs](https://docs.arbitrum.io).
+- [Ethereum](https://ethereum.org): Settlement network and broader Ethereum developer resources. [Docs](https://ethereum.org/developers).
 
 ## Oracles and data
 
-- [Chainlink](https://hoodl2.com/entity/chainlink): Price feeds and cross-chain infrastructure. Stock Token integrations must account for feed freshness and market hours. [Website](https://chain.link) · [Docs](https://docs.robinhood.com/chain/oracles-and-price-feeds/).
-- [Blockscout](https://hoodl2.com/entity/blockscout): Explorer software for reading transactions, token transfers and verified contracts. [Website](https://robinhoodchain.blockscout.com) · [Docs](https://docs.blockscout.com).
-- [Allium](https://hoodl2.com/entity/allium): Indexed blockchain data for analytics and applications. [Website](https://www.allium.so) · [Docs](https://docs.allium.so).
-- [CoinGecko](https://hoodl2.com/entity/coingecko): Token prices, market data and venue coverage. [Website](https://www.coingecko.com).
-- [Zerion](https://hoodl2.com/entity/zerion): Wallet data APIs and a multichain self-custody wallet. [Website](https://zerion.io) · [Docs](https://zerion.io/api).
+- [Chainlink](https://chain.link): Price feeds and cross-chain infrastructure. Stock Token integrations must account for feed freshness and market hours. [Docs](https://docs.robinhood.com/chain/oracles-and-price-feeds/).
+- [Blockscout](https://robinhoodchain.blockscout.com): Explorer software for reading transactions, token transfers and verified contracts. [Docs](https://docs.blockscout.com).
+- [Allium](https://www.allium.so): Indexed blockchain data for analytics and applications. [Docs](https://docs.allium.so).
+- [CoinGecko](https://www.coingecko.com): Token prices, market data and venue coverage.
+- [Zerion](https://zerion.io): Wallet data APIs and a multichain self-custody wallet. [Docs](https://zerion.io/api).
 
 ## Wallets and institutional services
 
-- [Robinhood Wallet](https://hoodl2.com/entity/robinhood-wallet): Robinhood’s self-custody wallet. [Website](https://robinhood.com/wallet).
-- [BitGo](https://hoodl2.com/entity/bitgo): Institutional digital-asset custody. [Website](https://www.bitgo.com).
-- [Fireblocks](https://hoodl2.com/entity/fireblocks): Custody, tokenization and digital-asset operations. [Website](https://www.fireblocks.com).
-- [TRM Labs](https://hoodl2.com/entity/trm-labs): Blockchain intelligence and transaction monitoring. [Website](https://www.trmlabs.com).
+- [Robinhood Wallet](https://robinhood.com/wallet): Robinhood’s self-custody wallet.
+- [BitGo](https://www.bitgo.com): Institutional digital-asset custody.
+- [Fireblocks](https://www.fireblocks.com): Custody, tokenization and digital-asset operations.
+- [TRM Labs](https://www.trmlabs.com): Blockchain intelligence and transaction monitoring.
 
-## More projects from HoodL2
+## More ecosystem projects
 
-Selected projects from our wider directory. These descriptions summarize the linked records and project materials; deployment details and current availability need individual review.
+Selected projects from our wider directory. These descriptions summarize our source records and project materials; deployment details and current availability need individual review.
 
-- [Alandale](https://hoodl2.com/entity/alandale): Swaps and liquidity incentives using a ve(3,3) model. [Website](https://alandale.xyz).
-- [Ekubo](https://hoodl2.com/entity/ekubo): Concentrated-liquidity AMM with a singleton contract architecture. [Website](https://ekubo.org/).
-- [Fables](https://hoodl2.com/entity/fables): Uniswap v4 hooks and ve(3,3) exchange mechanics. [Website](https://www.fables.fi/).
-- [Longbow](https://hoodl2.com/entity/longbow): Lending project focused on USDG and tokenized-asset collateral. [Website](https://www.longbow.cash).
-- [T3tris Finance](https://hoodl2.com/entity/t3tris-finance): Asynchronous ERC-4626 vault infrastructure. [Website](https://t3tris.finance/).
-- [TrustSwap](https://hoodl2.com/entity/trustswap): Robinhood Chain resources for token launches and liquidity locks. [Website](https://trustswap.com/robinhood).
-- [OpenSea](https://hoodl2.com/entity/opensea): Token and NFT marketplace with a Robinhood Chain discovery page. [Website](https://opensea.io/discover/chain/robinhood).
-- [Yorozu](https://hoodl2.com/entity/yorozu): Browser MMO with AI-generated game content. [Website](https://www.yorozu.gg/).
-- [StockRip](https://hoodl2.com/entity/stockrip): Pack-opening game using tokenized stocks. [Website](https://stockrip.com/).
-- [Sounder Liquidity](https://hoodl2.com/entity/sounder-liquidity): Liquidity-depth and venue-dispersion analytics.
+- [Alandale](https://alandale.xyz): Swaps and liquidity incentives using a ve(3,3) model.
+- [Ekubo](https://ekubo.org/): Concentrated-liquidity AMM with a singleton contract architecture.
+- [Fables](https://www.fables.fi/): Uniswap v4 hooks and ve(3,3) exchange mechanics.
+- [Longbow](https://www.longbow.cash): Lending project focused on USDG and tokenized-asset collateral.
+- [T3tris Finance](https://t3tris.finance/): Asynchronous ERC-4626 vault infrastructure.
+- [TrustSwap](https://trustswap.com/robinhood): Robinhood Chain resources for token launches and liquidity locks.
+- [OpenSea](https://opensea.io/discover/chain/robinhood): Token and NFT marketplace with a Robinhood Chain discovery page.
+- [Yorozu](https://www.yorozu.gg/): Browser MMO with AI-generated game content.
+- [StockRip](https://stockrip.com/): Pack-opening game using tokenized stocks.
+- [Sounder Liquidity](https://www.sounderliq.app/docs): Liquidity-depth and venue-dispersion analytics.
 
 ## Agents and automation
 
-Agent tools differ in wallet permissions and execution controls. The linked profiles include source notes and gaps; this list does not verify trading permissions or contract deployments.
+Agent tools differ in wallet permissions and execution controls. Review wallet permissions and contract deployments in the project’s documentation before granting access.
 
-- [Aeron](https://hoodl2.com/entity/aeron): Agent software and public repositories for real-world assets. [Website](https://github.com/aeronlabs).
-- [Project:VEX](https://hoodl2.com/entity/project-vex): Desktop agent for crypto research and onchain execution. [Website](https://www.projectvex.ai).
-- [bankrbot](https://hoodl2.com/entity/bankr): Conversational trading, swaps and token limit orders. [Website](https://bankr.bot).
-- [Sherwood Protocol](https://hoodl2.com/entity/sherwood-protocol): Vault infrastructure for agent-operated DeFi strategies. [Website](https://sherwood.sh).
-- [wire bot](https://hoodl2.com/entity/wirebot): Social and web trading interfaces for Robinhood Chain. [Website](https://wirebot.trade/docs).
+- [Aeron](https://github.com/aeronlabs): Agent software and public repositories for real-world assets.
+- [Project:VEX](https://www.projectvex.ai): Desktop agent for crypto research and onchain execution.
+- [bankrbot](https://bankr.bot): Conversational trading, swaps and token limit orders.
+- [Sherwood Protocol](https://sherwood.sh): Vault infrastructure for agent-operated DeFi strategies.
+- [wire bot](https://wirebot.trade/docs): Social and web trading interfaces for Robinhood Chain.
 
 ## Stock Tokens and issuer comparisons
 
 Robinhood Stock Tokens are **tokenized debt securities issued by Robinhood Assets (Jersey) Limited**. They provide economic exposure to underlying shares or ETFs without granting legal or beneficial rights in those underlying securities. Read the [official Stock Token overview](https://docs.robinhood.com/chain/stock-tokens/) and the [issuer’s prospectus and final terms](https://docs.robinhood.com/rhj).
 
 - [HoodL2 Stock Token directory](https://hoodl2.com/stocks): individual token records and linked research.
-- [Stock Tokens explained](https://hoodl2.com/learn/stock-tokens-explained): how the instruments work and where risks arise.
 - [Robinhood Stock Token issuer](https://hoodl2.com/learn/robinhood-stock-token-issuer): entity structure, custody, rights and redemption.
 - [Compare Stock Token issuers](https://hoodl2.com/learn/stock-token-issuers-compared): the overview table and differences between product structures.
 
 These comparisons cover distinct issuers, distributors and tokenization models. A comparison page does not mean the provider’s products are issued by Robinhood or available on Robinhood Chain.
 
-| Compare with Robinhood | HoodL2 research |
-| --- | --- |
-| Coinbase | [Coinbase compared with Robinhood Stock Tokens](https://hoodl2.com/learn/coinbase-vs-robinhood-stock-tokens) |
-| xStocks | [xStocks compared with Robinhood Stock Tokens](https://hoodl2.com/learn/xstocks-vs-robinhood-stock-tokens) |
-| Ondo | [Ondo compared with Robinhood Stock Tokens](https://hoodl2.com/learn/ondo-vs-robinhood-stock-tokens) |
-| Binance | [Binance compared with Robinhood Stock Tokens](https://hoodl2.com/learn/binance-vs-robinhood-stock-tokens) |
-| Dinari | [Dinari compared with Robinhood Stock Tokens](https://hoodl2.com/learn/dinari-vs-robinhood-stock-tokens) |
-| Superstate | [Superstate compared with Robinhood Stock Tokens](https://hoodl2.com/learn/superstate-vs-robinhood-stock-tokens) |
-| Securitize | [Securitize compared with Robinhood Stock Tokens](https://hoodl2.com/learn/securitize-vs-robinhood-stock-tokens) |
-| Swarm | [Swarm compared with Robinhood Stock Tokens](https://hoodl2.com/learn/swarm-vs-robinhood-stock-tokens) |
-| Remora | [Remora compared with Robinhood Stock Tokens](https://hoodl2.com/learn/remora-vs-robinhood-stock-tokens) |
+The issuer comparison covers Coinbase, xStocks, Ondo, Binance, Dinari, Superstate, Securitize, Swarm and Remora, with links to the individual analyses.
 
 ## Build on Robinhood Chain
 
-| Task | Official reference | HoodL2 context |
-| --- | --- | --- |
-| Connect a wallet or RPC client | [Network configuration](https://docs.robinhood.com/chain/connecting/) | [Build on Robinhood Chain](https://hoodl2.com/learn/build-on-robinhood-chain) |
-| Deploy a contract | [Foundry and Hardhat guide](https://docs.robinhood.com/chain/deploy-smart-contracts/) | [Developer overview](https://hoodl2.com/learn/build-on-robinhood-chain) |
-| Identify a Stock Token contract | [Token contracts](https://docs.robinhood.com/chain/contracts/) | [Verify a canonical Stock Token](https://hoodl2.com/learn/verify-a-canonical-stock-token) |
-| Integrate Stock Tokens | [Building with Stock Tokens](https://docs.robinhood.com/chain/building-with-stock-tokens/) | [Integration guide](https://hoodl2.com/learn/building-with-stock-tokens) |
-| Read prices | [Oracles and price feeds](https://docs.robinhood.com/chain/oracles-and-price-feeds/) | [Stock Token prices and oracles](https://hoodl2.com/learn/stock-token-prices-and-oracles) |
-| Handle dividends and splits | [Stock Token mechanics](https://docs.robinhood.com/chain/stock-tokens/) | [Dividends and splits](https://hoodl2.com/learn/stock-token-dividends-and-splits) |
-| Sponsor gas or use smart accounts | [Account abstraction](https://docs.robinhood.com/chain/account-abstraction/) | [Developer overview](https://hoodl2.com/learn/build-on-robinhood-chain) |
-| Integrate Lighter’s Robinhood instance | [API documentation](https://apidocs.rh.lighter.xyz/docs/get-started) | [Lighter profile](https://hoodl2.com/entity/lighter) |
-| Run a node | [Full-node guide](https://docs.robinhood.com/chain/run-a-full-node/) | [Network profile](https://hoodl2.com/entity/robinhood-chain) |
+| Task | Official reference |
+| --- | --- |
+| Connect a wallet or RPC client | [Network configuration](https://docs.robinhood.com/chain/connecting/) |
+| Deploy a contract | [Foundry and Hardhat guide](https://docs.robinhood.com/chain/deploy-smart-contracts/) |
+| Identify a Stock Token contract | [Token contracts](https://docs.robinhood.com/chain/contracts/) |
+| Integrate Stock Tokens | [Building with Stock Tokens](https://docs.robinhood.com/chain/building-with-stock-tokens/) |
+| Read prices | [Oracles and price feeds](https://docs.robinhood.com/chain/oracles-and-price-feeds/) |
+| Handle dividends and splits | [Stock Token mechanics](https://docs.robinhood.com/chain/stock-tokens/) |
+| Sponsor gas or use smart accounts | [Account abstraction](https://docs.robinhood.com/chain/account-abstraction/) |
+| Integrate Lighter’s Robinhood instance | [API documentation](https://apidocs.rh.lighter.xyz/docs/get-started) |
+| Run a node | [Full-node guide](https://docs.robinhood.com/chain/run-a-full-node/) |
 
-## HoodL2 reading list
+## Further reading
 
-- [Bridging to Robinhood Chain](https://hoodl2.com/learn/bridging-to-robinhood-chain)
-- [USDG and the dollar stack](https://hoodl2.com/learn/usdg-and-the-dollar-stack)
-- [The sequencer and first-come, first-served ordering](https://hoodl2.com/learn/the-sequencer-and-fcfs-ordering)
-- [Robinhood Chain compared with other L2s](https://hoodl2.com/learn/robinhood-chain-vs-other-l2s)
-- [Where to see Robinhood Chain data](https://hoodl2.com/learn/where-to-see-robinhood-chain-data)
-- [All HoodL2 guides](https://hoodl2.com/learn)
-- [HoodL2 on YouTube](https://www.youtube.com/@hoodl2com)
+- [Verify a canonical Stock Token](https://hoodl2.com/learn/verify-a-canonical-stock-token): HoodL2’s guide to checking the contract and issuer.
+- [Stock Token prices and oracles](https://hoodl2.com/learn/stock-token-prices-and-oracles): feed freshness, market hours and integration risks.
+- [HoodL2 on YouTube](https://www.youtube.com/@hoodl2com): video explainers.
 
 ## Directory and data
 
@@ -186,7 +169,7 @@ python3 scripts/render_directory.py --check
 
 ## Contribute
 
-Suggest a project, correct a link or add a primary source using [the contribution guide](CONTRIBUTING.md). Include the HoodL2 profile when one exists, the exact product or deployment, and a dated source. Changes are reviewed before inclusion.
+Suggest a project, correct a link or add a primary source using [the contribution guide](CONTRIBUTING.md). Include the project’s direct URL, the exact product or deployment, and a dated primary source. Changes are reviewed before inclusion.
 
 ---
 

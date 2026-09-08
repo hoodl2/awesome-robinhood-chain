@@ -29,8 +29,8 @@ def render(data):
         'Browse the [current HoodL2 directory](https://hoodl2.com/ecosystem) for subsequent updates. '
         'This snapshot preserves the source categories and recorded websites. It includes community projects, '
         'adjacent infrastructure and records with source gaps. Inclusion does not verify a deployment, '
-        'current availability, official affiliation or contract safety. Open the HoodL2 profile for its sources and qualifications.', '',
-        'Use your browser’s Find command to search project names. Missing websites are left blank. '
+        'current availability, official affiliation or contract safety. Source profile URLs remain in the JSON for provenance.', '',
+        'Use your browser’s Find command to search project names. Names link to a recorded website, documentation, repository, app or X profile, in that order. Missing destinations remain unlinked. '
         'The JSON also contains other public links recorded by HoodL2, including documentation and X profiles where present.', '',
         '## Categories', '',
     ]
@@ -41,11 +41,17 @@ def render(data):
         if key not in groups:
             continue
         lines += ['', f'<a id="{key}"></a>', '', f'## {label}', '',
-                  '| Project on HoodL2 | Recorded website |', '| --- | --- |']
+                  '| Project | Destination |', '| --- | --- |']
         for project in sorted(groups[key], key=lambda p: p['name'].casefold()):
-            site = project['recorded_links'].get('website')
-            website = f'[Website]({site})' if site else 'Not recorded'
-            lines.append(f"| [{cell(project['name'])}]({project['hoodl2_url']}) | {website} |")
+            links = project['recorded_links']
+            options = [('website', 'Website'), ('docs', 'Docs'), ('github', 'GitHub'), ('app', 'App'), ('twitter', 'X profile')]
+            chosen = next(((links[key], label) for key, label in options if links.get(key)), None)
+            name = cell(project['name'])
+            if chosen:
+                url, label = chosen
+                lines.append(f"| [{name}]({url}) | {label} |")
+            else:
+                lines.append(f"| {name} | Not recorded |")
     if set(groups) - set(labels):
         raise ValueError('Missing category labels')
     lines += ['', '---', '', 'Maintained by **[HoodL2.com](https://hoodl2.com)**, an Autonomous Finance property. '
