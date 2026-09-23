@@ -22,6 +22,7 @@ The full directory is a source snapshot, not a separate verification of 129 depl
 | [Lighter Domains](https://docs.robinhood.com/chain/lighter-domains/) | Dedicated Robinhood instance, separation from Lighter Core, UI and API docs |
 | [Arcus](https://arcus.xyz) | Spot beta availability, perps waitlist/cohort rollout and linked documentation |
 | [Rialto documentation](https://docs.rialto.xyz/) | Spot exchange and AMM description |
+| [loophole tape Robinhood Chain page](https://api.loopholetape.com/rhc) and [delayed sample](https://api.loopholetape.com/v1/rhc/sample/launches) | Pons V2 coverage, card fields, prices and payment networks; checked 23 September 2026 (sample returned `chain: eip155:4663` cards) |
 
 The linked project websites and documentation supply their own product descriptions. The provider table in Robinhood’s documentation does not establish that every product from those companies is available on the chain.
 
