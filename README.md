@@ -89,6 +89,7 @@ Available routes vary by asset and network. Start with the [official bridging gu
 - [Allium](https://www.allium.so): Indexed blockchain data for analytics and applications. [Docs](https://docs.allium.so).
 - [CoinGecko](https://www.coingecko.com): Token prices, market data and venue coverage.
 - [Zerion](https://zerion.io): Wallet data APIs and a multichain self-custody wallet. [Docs](https://zerion.io/api).
+- [PumpPill](https://www.pumppill.org/scan-check): Token safety reads for Robinhood Chain contracts (holder concentration, bundled-launch detection, deployer history, whether a token can still be sold), also served to AI assistants through a read-only MCP server at `https://api.pumppill.org/mcp`. Covers the tokens PumpPill has indexed, not every contract; no price predictions. [Docs](https://www.pumppill.org/for-agents).
 
 ## Wallets and institutional services
 

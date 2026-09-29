@@ -31,6 +31,10 @@ The linked project websites and documentation supply their own product descripti
 - **Arcus:** Robinhood’s current overview supplies `arcus.xyz`; the site links to `docs.arcus.xyz`. Its page distinguishes open spot beta for eligible users from a perps waitlist and cohort rollout. The snapshot has no recorded website for Arcus, so the new website is only asserted in the curated list.
 - **Rialto:** the current Robinhood overview supplies `rialto.xyz`, supplementing the documentation link in the HoodL2 snapshot.
 
+## Community additions
+
+- **PumpPill** (added 28 September 2026): primary sources are the project's own [scanner page](https://www.pumppill.org/scan-check), [agent documentation](https://www.pumppill.org/for-agents) and the [official MCP Registry entry](https://registry.modelcontextprotocol.io/v0/servers?search=pumppill) (`org.pumppill/token-safety`). The MCP endpoint was checked with an `initialize` request on 28 September 2026. Limits: it reports on tokens PumpPill has indexed, not every Robinhood Chain contract; outcome figures are counted from the market cap at logging, not a return anyone was offered; some member tools require a paid PumpPill membership. Not a HoodL2 directory record, so `data/projects.json` is unchanged.
+
 ## Scope and limits
 
 The selection includes multichain providers and adjacent Ethereum infrastructure alongside Robinhood Chain projects. It does not imply exclusivity, endorsement, audited contracts or guaranteed liquidity. Community and agent-project entries have additional source and deployment gaps described in their HoodL2 profiles.
