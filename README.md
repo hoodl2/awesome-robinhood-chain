@@ -54,6 +54,7 @@ Core infrastructure entries follow Robinhood’s [ecosystem overview](https://do
 - [Rialto](https://rialto.xyz): Spot exchange using a proprietary AMM; listed in Robinhood’s ecosystem documentation. [Docs](https://docs.rialto.xyz/).
 - [Arcus](https://arcus.xyz): Stock Token spot beta for eligible users. Perpetuals use a waitlist and cohort rollout. [Docs](https://docs.arcus.xyz).
 - [Lighter](https://robinhoodchain.lighter.xyz): Dedicated Robinhood Chain instance with its own contracts, sequencing and liquidity. [Docs](https://docs.robinhood.com/chain/lighter-domains/).
+- [TRNCH](https://trnch.fun): Trading terminal for Robinhood Chain that quotes each swap across KyberSwap, LI.FI, Uniswap, 1inch and 0x and takes the best route; non-custodial, users sign in their own wallet. [Docs](https://docs.trnch.fun).
 
 ## Lending and stablecoins
 
