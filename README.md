@@ -120,6 +120,7 @@ Agent tools differ in wallet permissions and execution controls. Review wallet p
 - [Project:VEX](https://www.projectvex.ai): Desktop agent for crypto research and onchain execution.
 - [bankrbot](https://bankr.bot): Conversational trading, swaps and token limit orders.
 - [Sherwood Protocol](https://sherwood.sh): Vault infrastructure for agent-operated DeFi strategies.
+- [Chord](https://getchord.xyz): Swap routing and trade data API for agents and apps, Stock Tokens included. Returns the unsigned transaction for the caller's wallet to sign. [Docs](https://getchord.xyz/docs).
 - [wire bot](https://wirebot.trade/docs): Social and web trading interfaces for Robinhood Chain.
 
 ## Stock Tokens and issuer comparisons

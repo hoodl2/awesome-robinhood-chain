@@ -31,6 +31,10 @@ The linked project websites and documentation supply their own product descripti
 - **Arcus:** Robinhood’s current overview supplies `arcus.xyz`; the site links to `docs.arcus.xyz`. Its page distinguishes open spot beta for eligible users from a perps waitlist and cohort rollout. The snapshot has no recorded website for Arcus, so the new website is only asserted in the curated list.
 - **Rialto:** the current Robinhood overview supplies `rialto.xyz`, supplementing the documentation link in the HoodL2 snapshot.
 
+## Additions after the initial publication
+
+- **Chord** (checked 16 October 2026): [documentation](https://getchord.xyz/docs) and [OpenAPI spec](https://getchord.xyz/openapi.json) list Robinhood Chain (4663) among the supported swap chains; contracts in the [public repository](https://github.com/getchordlabs/chord). A live quote that day through its public API routed 100 USDG to the NVDA Stock Token across two pools on chain 4663 (a Uniswap V4 pool and a Slipstream-style concentrated-liquidity pool). Limits: it routes on-chain DEX pools only and does not check Stock Token eligibility; the caller's wallet signs every transaction.
+
 ## Scope and limits
 
 The selection includes multichain providers and adjacent Ethereum infrastructure alongside Robinhood Chain projects. It does not imply exclusivity, endorsement, audited contracts or guaranteed liquidity. Community and agent-project entries have additional source and deployment gaps described in their HoodL2 profiles.
