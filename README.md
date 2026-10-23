@@ -107,6 +107,7 @@ Selected projects from our wider directory. These descriptions summarize our sou
 - [Longbow](https://www.longbow.cash): Lending project focused on USDG and tokenized-asset collateral.
 - [T3tris Finance](https://t3tris.finance/): Asynchronous ERC-4626 vault infrastructure.
 - [TrustSwap](https://trustswap.com/robinhood): Robinhood Chain resources for token launches and liquidity locks.
+- [Oozlings](https://oozlings.com): 10,000-piece ERC-721 PFP collection of alien characters on Robinhood Chain; fully minted and revealed. [Contract](https://robinhoodchain.blockscout.com/token/0x674bF3477B4021C5E1aA27d7100DA6C8eEe0AC03).
 - [OpenSea](https://opensea.io/discover/chain/robinhood): Token and NFT marketplace with a Robinhood Chain discovery page.
 - [Yorozu](https://www.yorozu.gg/): Browser MMO with AI-generated game content.
 - [StockRip](https://stockrip.com/): Pack-opening game using tokenized stocks.

@@ -31,6 +31,10 @@ The linked project websites and documentation supply their own product descripti
 - **Arcus:** Robinhood’s current overview supplies `arcus.xyz`; the site links to `docs.arcus.xyz`. Its page distinguishes open spot beta for eligible users from a perps waitlist and cohort rollout. The snapshot has no recorded website for Arcus, so the new website is only asserted in the curated list.
 - **Rialto:** the current Robinhood overview supplies `rialto.xyz`, supplementing the documentation link in the HoodL2 snapshot.
 
+## Additions after the initial publication
+
+- **Oozlings** (checked 23 October 2026): 10,000-piece ERC-721 collection on Robinhood Chain mainnet (4663). Contract [0x674bF3477B4021C5E1aA27d7100DA6C8eEe0AC03](https://robinhoodchain.blockscout.com/token/0x674bF3477B4021C5E1aA27d7100DA6C8eEe0AC03), source verified on Blockscout and linked from the footer of [oozlings.com](https://oozlings.com). Collection page on [OpenSea](https://opensea.io/collection/oozlings). Limits: NFT collection only; no token or DeFi functionality.
+
 ## Scope and limits
 
 The selection includes multichain providers and adjacent Ethereum infrastructure alongside Robinhood Chain projects. It does not imply exclusivity, endorsement, audited contracts or guaranteed liquidity. Community and agent-project entries have additional source and deployment gaps described in their HoodL2 profiles.
