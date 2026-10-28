@@ -93,6 +93,7 @@ Available routes vary by asset and network. Start with the [official bridging gu
 ## Wallets and institutional services
 
 - [Robinhood Wallet](https://robinhood.com/wallet): Robinhood’s self-custody wallet.
+- [Gem Wallet](https://gemwallet.com/): Open-source self-custody mobile wallet for iOS and Android with native Robinhood Chain support. [Docs](https://docs.gemwallet.com/blockchains/robinhood/).
 - [BitGo](https://www.bitgo.com): Institutional digital-asset custody.
 - [Fireblocks](https://www.fireblocks.com): Custody, tokenization and digital-asset operations.
 - [TRM Labs](https://www.trmlabs.com): Blockchain intelligence and transaction monitoring.
