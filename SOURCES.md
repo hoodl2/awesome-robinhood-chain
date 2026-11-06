@@ -50,3 +50,16 @@ Project links go directly to the project. HoodL2 links are limited to publisher 
 The user supplied [adrydevel/awesome-robinhood-chain](https://github.com/adrydevel/awesome-robinhood-chain) as a format reference. This repository’s text, category selection, HoodL2 links and directory snapshot were prepared independently from HoodL2 data and the sources above.
 
 The banner uses HoodL2’s colors and Space Grotesk, distributed under the [SIL Open Font License](https://github.com/google/fonts/blob/main/ofl/spacegrotesk/OFL.txt). It contains original vector artwork and outlined text; no Robinhood logo is used.
+## Proposed BlockVectra MCP resource — checked 15 October 2026
+
+- [BlockVectra MCP server documentation](https://docs.blockvectra.com/en/guides/mcp-server/): hosted Streamable HTTP MCP endpoint, tool inventory, authentication boundary and client setup. First-party source; checked 15 October 2026.
+- [Robinhood Chain RPC guide](https://docs.blockvectra.com/en/guides/robinhood-chain/): chain IDs, public RPC method policy, endpoint and rate limit. First-party source; checked 15 October 2026.
+- [Robinhood Chain testnet starter](https://docs.blockvectra.com/en/guides/robinhood-testnet-starter/): chain ID 46630, keyless HTTP reads, key-protected WebSocket logs and starter workflow. First-party source; checked 15 October 2026.
+- [Robinhood Chain testnet faucet guide](https://docs.blockvectra.com/en/guides/robinhood-testnet-faucet/): faucet steps and their limits. First-party source; checked 15 October 2026.
+
+The proposed entry is first-party and does not imply Robinhood endorsement. Public RPC is rate-limited; indexed Data API and account tools require an API key and follow current plans and limits.
+
+Navigation update — 20 October 2026: the README now uses canonical documentation URLs without tracking parameters and links directly to the mainnet RPC and testnet starter guides listed above. This navigation-only update was reconciled offline against the published documentation source; it does not change the 15 October source-check dates or assert a new live service test.
+
+
+Docs-only connection update - 6 November 2026: the [MCP guide](https://docs.blockvectra.com/en/guides/mcp-server/#docs-only-remote-http) documents `https://docs.blockvectra.com/mcp/docs` as a hosted Streamable HTTP connection exposing only `search_docs` and `read_doc`, without a BlockVectra account or API key. The full `/mcp` connection remains separate for chain discovery, RPC and keyed tools. This update was checked against the [public connection instructions](https://github.com/blockvectra/agent-quickstart/blob/28a2005d6b3ceefbdeb06399a292bdc80aefa5a3/skills/blockvectra-docs/SKILL.md); it is not a new live-service test. The 15 October checks and 20 October navigation note above remain historical. No referral parameters were added.
